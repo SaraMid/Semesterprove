@@ -1,0 +1,26 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+@font-face {
+    font-family:marbre_sans;
+    src: url(marbre_sans.otf)
+}
+
+.portrait {
+    text-align: center;
+    margin-top: 0;
+   
+}
+
+h1 {
+text-align: center;
+font-family: marbre_sans;
+font-size: 4em;
+    
+    
+}
