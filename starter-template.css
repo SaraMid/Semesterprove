@@ -19,8 +19,8 @@ footer {
     
 }
 @font-face {
-    font-family:goldoni;
-    src: url(goldoni.otf)
+    font-family:cinzeldecorative-regular;
+    src: url(cinzeldecorative-regular.ttf)
 }
 
 
@@ -55,7 +55,7 @@ font-size: 4vmax;
 }
 
 h2 {
-font-family: goldoni;
+font-family: cinzeldecorative-regular;
     text-align: center;
     font-size: 3em;
 }
