@@ -1,6 +1,13 @@
 body {
-  padding-top: 50px;
+ 
 }
+
+footer {
+    text-align: center;
+    color:dimgrey;
+    font-family: sans-serif;
+}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -9,7 +16,25 @@ body {
 @font-face {
     font-family:marbre_sans;
     src: url(marbre_sans.otf)
+    
 }
+@font-face {
+    font-family:goldoni;
+    src: url(goldoni.otf)
+}
+
+
+
+@font-face {
+    font-family:arsenal-regular;
+    src: url(arsenal-regular.otf)
+}
+
+@font-face {
+    font-family:Imprisha;
+    src: url(imprisha.ttf)
+}
+
 /*Styling af billede i headeren */
 .portrait {
     text-align: center;
@@ -23,14 +48,20 @@ body {
 
 h1 {
 text-align: center;
-font-family: marbre_sans;
-font-size: 4em;
+font-family: goldoni;
+font-size: 3em;
+font-size: 4vmax;
     
-    
+}
+
+h2 {
+font-family: goldoni;
+    text-align: center;
+    font-size: 3em;
 }
 /* Styling af PDF */
 .pdf {
-    min-width: 800px;
+    min-width: 40%;
 }
 
 .list-group {
@@ -39,9 +70,43 @@ font-size: 4em;
 /*Styling af video fra prototyping */
 
 .prototypevideo {
-    max-width: 50%;
-    min-width: 20em;
-    max-height: 10em;
+   min-width: 30%;
+    padding: 10px;
+    float: right;
+}
+
+/* styling af tekst */
+p {
+    font-family: serif;
+    font-size: 1.2em;
+    line-height: 20px;
+}
+
+li {
+    font-family: serif;
+    font-size: 1.2em;
+    line-height: 20px;
 }
 
 
+.floattextleft {
+    padding-top: 2vw;
+    float: left;
+    margin-left: 4vw;
+    padding-left: 2%;
+    max-width: 45%;
+    min-width: 300px;
+}
+.floattextright {
+    padding-top: 4vw;
+    float: right;
+    margin-right: 4vw;
+    padding-right: 2%;
+    max-width: 45%;
+    min-width: 300px;
+}
+
+
+.picture {
+    float: right;
+}
